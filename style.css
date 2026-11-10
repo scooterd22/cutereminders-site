@@ -1,0 +1,15 @@
+/* pond colors, same feel as the app */
+:root { --bg: #eef6ef; --card: #ffffff; --ink: #2f4a3a; --soft: #5f7a69; --accent: #6fae8c; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 40px 16px 60px; }
+h1, h2, nav a { font-family: "Chewy", cursive; font-weight: 400; }
+h1 { font-size: 44px; margin: 0 0 4px; line-height: 1.1; }
+h2 { font-size: 26px; margin: 32px 0 6px; }
+nav { display: flex; gap: 18px; margin-bottom: 28px; }
+nav a { color: var(--accent); font-size: 20px; text-decoration: none; }
+.card { background: var(--card); border-radius: 20px; padding: 22px 22px; box-shadow: 0 4px 0 rgba(47,74,58,.12); }
+.sub { color: var(--soft); margin: 0 0 24px; }
+a { color: var(--ink); }
+.email { display: inline-block; margin-top: 6px; font-family: "Chewy", cursive; font-size: 22px; background: var(--accent); color: #fff; padding: 8px 18px; border-radius: 999px; text-decoration: none; word-break: break-all; }
+footer { margin-top: 40px; color: var(--soft); font-size: 15px; text-align: center; }
